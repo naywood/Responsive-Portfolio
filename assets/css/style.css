@@ -194,9 +194,11 @@ p{
     body {
       background: #f2fdf3;
     }
-    nav, section, article, p, footer{
+    nav, section, footer{
       width: 720px
     }
+    article, p {
+      width: 700px;
   }
   @media screen and (max-width: 640px) 
   {
@@ -204,8 +206,11 @@ p{
       background: black;
     }
 
-   nav, section, article, p, footer {
-      width: 578px
+   nav, section, footer {
+      width: 578px;
+    }
+    article, p {
+      width: 558px;
     }
   }
 

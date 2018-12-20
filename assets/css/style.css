@@ -13,8 +13,6 @@ section, footer, header {
   background-color: #fce1e0; 
   border-radius: 10px;
   border: 5px solid white;
-
-
 }
 
 
@@ -90,27 +88,62 @@ p{
   font-size: 18px;
 }
 
+.item{
+  position: relative;
+  float: left; 
+  margin: 15px 15px 40px 0px;
+  border-radius: 10px;
+  overflow:hidden;
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+
+}
+.item img {
+  border-radius: 10px;
+}
+
+.item1{
+  background-image: url(../images/mountains.jpg);
+
+}
+.item2{
+  background-image: url(../images/m2.jpg);
+
+}
+
+.item3{
+  background-image: url(../images/m3.jpg);
+
+}
 .textbox{
   position: absolute;
-  margin: 30px 0 0 0;
+  /* margin: 30px 0 0 0; */
   background: white ;
   width: 250px; 
+  top: 30px;
+
 }
 .textbox2 {
   position: absolute;
-  margin: 30px 0px 0px 265px;
+  /* margin: 30px 0px 0px 265px; */
   background: white;
-  width: 250px;
+  /* width: 250px; */
   text-align: center;
+  
 }
 
 .textbox3 {
   position: absolute;
-  margin: 30px 0px 0px 530px;
+  /* margin: 30px 0px 0px 530px; */
   background: white;
-  width: 250px;
+  /* width: 250px; */
   text-align: center;
 
+}
+
+.textbox, .textbox2, .textbox3 {
+  z-index: 6;
 }
 
 .content {
@@ -187,18 +220,19 @@ p{
     body{
       background-image: url("../images/qbkls.jpg");
     }
- 
   }
   @media screen and (max-width: 768px) 
   {
     body {
       background: #f2fdf3;
     }
-    nav, section, footer{
+    nav, section, footer,{
       width: 720px
     }
     article, p {
       width: 700px;
+      z-index: 6;
+      
   }
   @media screen and (max-width: 640px) 
   {
@@ -211,6 +245,8 @@ p{
     }
     article, p {
       width: 558px;
+      z-index: 6;
+
     }
   }
 

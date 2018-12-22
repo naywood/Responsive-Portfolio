@@ -127,12 +127,12 @@ p{
 
   }
   
-.footer {
+footer {
     height: 50px;
     clear: both;
     padding: 10px 0px 10px 0px;   
     text-transform: uppercase;
-
+  
   }
 
   * {
@@ -206,7 +206,7 @@ p{
       width: 720px
     }
     article, p {
-      width: 700px;
+      width: 690px;
       z-index: 6;
       
   }
@@ -224,16 +224,13 @@ p{
       width: 578px;
     }
     article, p {
-      width: 558px;
+      width: 548px;
       z-index: 6;
 
     }
   }
 
 /*
-Here is the "code" that makes my header static----header= static
 
-here is all of the other code that makes my website responsiveness "cleaner"
-    many things missing---lots of widths that are incorrect!
 
 */

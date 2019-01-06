@@ -102,7 +102,7 @@ p{
 }
 
 .item1{
-  background-image: url(../images/mountains.jpg);
+  background-image: url(../images/wordguess.jpg);
 
 }
 .item2{
@@ -200,9 +200,7 @@ footer {
   }
   @media screen and (max-width: 768px) 
   {
-    body {
-      background: #f2fdf3;
-    }
+    
     section, footer,{
       width: 720px
     }
@@ -216,10 +214,6 @@ footer {
   }
   @media screen and (max-width: 640px) 
   {
-    body{
-      background:lightgray;
-    }
-
     nav {
       clear: both;
       float: left;

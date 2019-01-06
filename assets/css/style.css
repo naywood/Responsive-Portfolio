@@ -17,6 +17,7 @@ section, footer, header {
 
 
 header {
+    position: static;
     text-align: left;
     text-transform: uppercase;
     font-size: 40px;
@@ -208,7 +209,10 @@ footer {
     article, p {
       width: 690px;
       z-index: 6;
-      
+    } 
+    nav {
+      float: left;
+    }  
   }
   @media screen and (max-width: 640px) 
   {
@@ -216,12 +220,13 @@ footer {
       background:lightgray;
     }
 
-    nav{
-      display: flex;
-      justify-content: flex-end;
-    }
+    nav {
+      clear: both;
+      float: left;
+    }  
     section, footer {
       width: 578px;
+      clear: both;
     }
     article, p {
       width: 548px;

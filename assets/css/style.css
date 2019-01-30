@@ -114,6 +114,11 @@ p{
   background-image: url(../images/throne.png);
 
 }
+
+.item4{
+  background-image: url(../images/gifparadise.png);
+  clear: all;
+}
 .textbox{
   position: absolute;
   background: white ;
